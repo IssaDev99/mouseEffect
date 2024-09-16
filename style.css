@@ -155,9 +155,10 @@ footer img {
   width: 10px;
   position: absolute;
   border-radius: 50px;
-  background: yellow;
+  background: blue;
   z-index: 300;
   transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
 }
 
 .mousemove2 {
@@ -177,9 +178,9 @@ footer img {
   width: 200px;
   position: absolute;
   border-radius: 1000px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgb(10, 10, 10);
   z-index: 100;
   transform: translate(-50%, -50%);
   transition: 0.2s ease;
-  mix-blend-mode: luminosity;
+  mix-blend-mode: difference;
 }
